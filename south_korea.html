@@ -7,6 +7,27 @@
     .content{
       flex:1;
       padding:20px;}
+       {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+    text-align:center;
+  vertical-align:top;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+    .content{
+      flex:1;
+      padding:20px;}
   .footer{
     background-color:black;
   color:white;text-align:center;
